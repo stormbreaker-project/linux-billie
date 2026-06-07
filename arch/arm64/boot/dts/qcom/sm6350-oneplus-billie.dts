@@ -453,7 +453,7 @@
 	 * 13-16: Egis ET520 fingerprint sensor
 	 * 56-57: TZ-protected pins
 	 */
-	gpio-reserved-ranges = <13 4>, <56 2>;
+	gpio-reserved-ranges = <13 4>;
 
 	te_gpio: te-default-state {
 		pins = "gpio23";
